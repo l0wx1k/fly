@@ -414,7 +414,7 @@ end
 end)
 mine.MouseButton1Down:connect(function()
 if speeds == 1 then
-speed.Text = 'cannot be less than 1'
+speed.Text = 'Cannot Be Less Than 1'
 wait(1)
 speed.Text = speeds
 else
